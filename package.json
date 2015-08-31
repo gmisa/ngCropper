@@ -1,5 +1,21 @@
 {
+  "name": "ngCropperSc",
+  "version": "1.0.0",
+  "description": "Angular wrapper for Cropper js",
+  "main": "dist/ngCropper.all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ADP",
+    "Cropper",
+    "ngCropper"
+  ],
   "devDependencies": {
+    "cropper": "~0.10.0",
+    "jquery": "~2.1.1",
     "minify": "^1.0.4"
-  }
+  },
+  "author": "misag",
+  "license": "ISC"
 }
