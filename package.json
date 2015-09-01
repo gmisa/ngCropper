@@ -1,21 +1,31 @@
 {
-  "name": "ngCropperSc",
-  "version": "1.0.0",
-  "description": "Angular wrapper for Cropper js",
-  "main": "dist/ngCropper.all.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ADP",
-    "Cropper",
-    "ngCropper"
-  ],
-  "devDependencies": {
-    "cropper": "~0.10.0",
-    "jquery": "~2.1.1",
-    "minify": "^1.0.4"
-  },
-  "author": "misag",
-  "license": "ISC"
+    "name": "adp-ng-cropper",
+    "version": "1.0.0",
+    "description": "Angular wrapper for Cropper",
+    "main": "dist/ngCropper.all.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gmisa/ngCropper.git"
+    },
+    "keywords": [
+        "Angular",
+        "wrapper",
+        "cropper",
+        "ngCropper"
+    ],
+    "author": "gmisa",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gmisa/ngCropper/issues"
+    },
+    "homepage": "https://github.com/gmisa/ngCropper",
+    "dependencies": {
+        "cropper": "^0.11.1"
+    }
 }
